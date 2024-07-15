@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import HeroBGDesktop from "../../../public/images/HeroBG.png";
-import HeroBGMobile from "../../../public/images/HeroBG.png";
+import HeroBGMobile from "../../../public/images/HeroBGMobile.png";
 import { Button } from "../ui/button";
 const HeroSection = () => {
   return (
     <section className="w-full bg-hero">
       <main className="max-w-[1440px] m-auto">
-        <div className="w-full md:flex-center relative">
+        <div className="w-full flex-center pt-10 md:pt-0 flex-col-reverse relative">
           <Image src={HeroBGDesktop} alt="" className="w-full hidden md:block object-cover" />
           <Image src={HeroBGMobile} alt="" className="w-full md:hidden object-cover" />
-          <div className="h-full w-full px-5 flex flex-col items-start justify-center gap-8 absolute">
+          <div className="h-full w-full px-5 hidden md:flex flex-col items-start justify-center gap-8 absolute">
             <div className="flex flex-col">
               <h1 className="text-2xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
                 FIND CLOTHES
@@ -76,13 +76,13 @@ const HeroSection = () => {
           {/* mobile section */}
           <div className="h-full w-full px-5 flex md:hidden flex-col items-start justify-center gap-8">
             <div className="flex flex-col">
-              <h1 className="text-2xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
                 FIND CLOTHES
               </h1>
-              <h1 className="text-2xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
                 THAT MATCHES
               </h1>
-              <h1 className="text-2xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
+              <h1 className="text-3xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
                 YOUR STYLE
               </h1>
             </div>
