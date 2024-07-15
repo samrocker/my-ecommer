@@ -5,8 +5,8 @@ import "../styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "techsolace Ecommerce",
-  description: "Techsolace is an indian startup started by a group of team",
+  title: "Samridh Ecommerce",
+  description: "Samridh Ecommerce",
 };
 
 export default function RootLayout({

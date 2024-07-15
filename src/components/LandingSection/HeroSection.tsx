@@ -74,7 +74,7 @@ const HeroSection = () => {
             </div>
           </div>
           {/* mobile section */}
-          <div className="h-full w-full px-5 flex md:hidden flex-col items-start justify-center gap-8">
+          <div className="h-full w-full px-5 flex md:hidden flex-col items-start justify-center gap-3">
             <div className="flex flex-col">
               <h1 className="text-3xl md:text-4xl lg:text-6xl font-IntegralCF font-extrabold">
                 FIND CLOTHES
