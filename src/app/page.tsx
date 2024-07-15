@@ -3,6 +3,8 @@ import HeaderSection from "@/components/common/HeaderSection";
 import HeroSection from "@/components/LandingSection/HeroSection";
 import CompaniesSection from "@/components/LandingSection/CompaniesSection";
 import NewArrivalsSection from "@/components/LandingSection/NewArrivalsSection";
+import TopSellerSection from "@/components/LandingSection/TopSellerSection";
+import BrowseDressSection from "@/components/LandingSection/BrowseDressSection";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <HeroSection />
       <CompaniesSection />
       <NewArrivalsSection />
+      <TopSellerSection />
+      {/* <BrowseDressSection /> */}
     </>
   );
 }

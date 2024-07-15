@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import ProductImage1 from "../../../public/images/ProductImages/T-SHIRT WITH TAPE DETAILS.png";
-import ProductImage2 from "../../../public/images/ProductImages/SKINNY FIT JEANS.png";
-import ProductImage3 from "../../../public/images/ProductImages/CHECKERED SHIRT.png";
-import ProductImage4 from "../../../public/images/ProductImages/SLEEVE STRIPED T-SHIRT.png";
+import ProductImage1 from "../../../public/images/ProductImages/VERTICAL STRIPED SHIRT.png";
+import ProductImage2 from "../../../public/images/ProductImages/COURAGE GRAPHIC T-SHIRT.png";
+import ProductImage3 from "../../../public/images/ProductImages/LOOSE FIT BERMUDA SHORTS.png";
+import ProductImage4 from "../../../public/images/ProductImages/FADED SKINNY JEANS.png";
 import StartFull from "../../../public/icons/StarFull.png";
 import StartHalf from "../../../public/icons/Starhalf.png";
 
-const NewArrivalsSection = () => {
+const TopSellerSection = () => {
   return (
     <section>
       <main className="max-w-[1380px] m-auto">
-        <div className="py-10 px-5 w-full flex-between flex-col gap-10 border-b-[1px] border-primary/20">
+        <div className="py-10 px-5 w-full flex-between flex-col gap-10">
           <div className="flex-[1] w-full flex-center flex-col gap-5">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-IntegralCF font-extrabold">
-              NEW ARRIVALS
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-IntegralCF font-extrabold uppercase">
+            top selling
             </h1>
           </div>
           <div className="flex-[2] w-full flex-center flex-wrap gap-5 lg:gap-10">
@@ -28,7 +28,7 @@ const NewArrivalsSection = () => {
               </div>
               <div className="flex-[1] px-2 w-full flex flex-col gap-1 items-start justify-center">
                 <h1 className="text-sm font-Satoshi font-bold">
-                  T-SHIRT WITH TAPE DETAILS
+                VERTICAL STRIPED SHIRT
                 </h1>
                 <span className="w-full flex-start gap-3">
                   <div className="flex gap-1">
@@ -60,9 +60,9 @@ const NewArrivalsSection = () => {
                       className=" object-cover"
                     />
                   </div>
-                  <p className="font-Satoshi ">4.5/5</p>
+                  <p className="font-Satoshi ">5.0/5</p>
                 </span>
-                <h1 className="text-xl font-Satoshi font-bold">$120</h1>
+                <h1 className="text-xl font-Satoshi font-bold">$212</h1>
               </div>
             </div>
             <div className="w-[256px] flex-between flex-col gap-5">
@@ -74,7 +74,7 @@ const NewArrivalsSection = () => {
                 />
               </div>
               <div className="flex-[1] px-2 w-full flex flex-col gap-1 items-start justify-center">
-                <h1 className="text-sm font-Satoshi font-bold">SKINNY FIT JEANS</h1>
+                <h1 className="text-sm font-Satoshi font-bold">COURAGE GRAPHIC T-SHIRT</h1>
                 <span className="w-full flex-start gap-3">
                   <div className="flex gap-1">
                     <Image
@@ -105,9 +105,9 @@ const NewArrivalsSection = () => {
                       className=" object-cover"
                     />
                   </div>
-                  <p className="font-Satoshi ">3.5/5</p>
+                  <p className="font-Satoshi ">4.0/5</p>
                 </span>
-                <h1 className="text-xl font-Satoshi font-bold">$240</h1>
+                <h1 className="text-xl font-Satoshi font-bold">$145</h1>
               </div>
             </div>
             <div className="w-[256px] flex-between flex-col gap-5">
@@ -119,7 +119,7 @@ const NewArrivalsSection = () => {
                 />
               </div>
               <div className="flex-[1] px-2 w-full flex flex-col gap-1 items-start justify-center">
-                <h1 className="text-sm font-Satoshi font-bold">CHECKERED SHIRT</h1>
+                <h1 className="text-sm font-Satoshi font-bold">LOOSE FIT BERMUDA SHORTS</h1>
                 <span className="w-full flex-start gap-3">
                   <div className="flex gap-1">
                     <Image
@@ -150,9 +150,9 @@ const NewArrivalsSection = () => {
                       className=" object-cover"
                     />
                   </div>
-                  <p className="font-Satoshi ">4.5/5</p>
+                  <p className="font-Satoshi ">3.0/5</p>
                 </span>
-                <h1 className="text-xl font-Satoshi font-bold">$120</h1>
+                <h1 className="text-xl font-Satoshi font-bold">$80</h1>
               </div>
             </div>
             <div className="w-[256px] flex-between flex-col gap-5">
@@ -165,7 +165,7 @@ const NewArrivalsSection = () => {
               </div>
               <div className="flex-[1] px-2 w-full flex flex-col gap-1 items-start justify-center">
                 <h1 className="text-sm font-Satoshi font-bold">
-                  T-SHIRT WITH TAPE DETAILS
+                FADED SKINNY JEANS
                 </h1>
                 <span className="w-full flex-start gap-3">
                   <div className="flex gap-1">
@@ -199,7 +199,7 @@ const NewArrivalsSection = () => {
                   </div>
                   <p className="font-Satoshi ">4.5/5</p>
                 </span>
-                <h1 className="text-xl font-Satoshi font-bold">$130</h1>
+                <h1 className="text-xl font-Satoshi font-bold">$210</h1>
               </div>
             </div>
           </div>
@@ -212,4 +212,4 @@ const NewArrivalsSection = () => {
   );
 };
 
-export default NewArrivalsSection;
+export default TopSellerSection;

@@ -11,7 +11,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const HeaderSection = () => {
   return (
-    <section>
+    <section className="w-full sticky top-0 z-50 bg-white shadow-md">
       <main className="max-w-[1440px] m-auto">
         <div className="py-5 px-5 lg:px-0 w-full flex-between gap-3">
           <div className="flex-[1] lg:flex-[0.4] flex-start gap-5">
@@ -19,7 +19,7 @@ const HeaderSection = () => {
               <SheetTrigger>
                 <Image
                   src={MenuIcon}
-                  alt=""
+                  alt="Menu"
                   className="object-cover block lg:hidden"
                 />
               </SheetTrigger>
@@ -54,7 +54,7 @@ const HeaderSection = () => {
                 </div>
               </SheetContent>
             </Sheet>
-            <Image src={Logo} alt="" className="w-20 lg:w-36 object-cover" />
+            <Image src={Logo} alt="Logo" className="w-20 lg:w-36 object-cover" />
           </div>
           <div className="flex-[2] hidden lg:flex-between gap-5">
             <div className="flex-start gap-5">
@@ -87,7 +87,7 @@ const HeaderSection = () => {
               action="/"
               className="flex-[1] flex-end bg-black/10 rounded-3xl px-5 gap-2"
             >
-              <Image src={SearchIconDesktop} alt="" className="object-cover" />
+              <Image src={SearchIconDesktop} alt="Search" className="object-cover" />
               <input
                 type="text"
                 placeholder="Search for products..."
@@ -97,13 +97,13 @@ const HeaderSection = () => {
           </div>
           <div className="flex-[1] lg:flex-[0.3] flex-end gap-3">
             <Link href="/">
-              <Image src={SearchIconMobile} alt="" className="w-5 lg:w-6 lg:hidden object-cover" />
+              <Image src={SearchIconMobile} alt="Search" className="w-5 lg:w-6 lg:hidden object-cover" />
             </Link>
             <Link href="/">
-              <Image src={CartIcon} alt="" className="w-5 lg:w-6 object-cover" />
+              <Image src={CartIcon} alt="Cart" className="w-5 lg:w-6 object-cover" />
             </Link>
             <Link href="/">
-              <Image src={UserIcon} alt="" className="w-5 lg:w-6 object-cover" />
+              <Image src={UserIcon} alt="User" className="w-5 lg:w-6 object-cover" />
             </Link>
           </div>
         </div>
