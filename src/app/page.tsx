@@ -15,7 +15,7 @@ export default function Home() {
       <CompaniesSection />
       <NewArrivalsSection />
       <TopSellerSection />
-      {/* <BrowseDressSection /> */}
+      <BrowseDressSection />
     </>
   );
 }
